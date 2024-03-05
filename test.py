@@ -1,4 +1,4 @@
-from app import add
+from app import add, divide
 import pytest
 
 def test_add():
@@ -6,4 +6,4 @@ def test_add():
 
 def test_divide(self):
     with pytest.raises(ZeroDivisionError): 
-         100 / 0
+         divide(100,0)
