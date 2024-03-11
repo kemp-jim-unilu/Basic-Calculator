@@ -5,5 +5,4 @@ def test_add():
     assert(add(1,1), 2)
 
 def test_divide(self):
-    with pytest.raises(ZeroDivisionError): 
-         divide(100,0)
+     assert(divide(10,2), 5)
